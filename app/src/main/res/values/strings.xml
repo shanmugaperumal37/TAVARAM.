@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TAVARAM</string>
+    <string name="app_logo">App Logo</string>
+    <string name="select_image">Select Image</string>
+    <string name="selected_image">Selected Image</string>
+    <string name="detection_result">Detection Result</string>
+    <string name="disease_notes_placeholder">Disease Notes will appear here in Tamil and English</string>
+    <string name="footer_text">© 2025 Plant Disease Detection</string>
+</resources>
