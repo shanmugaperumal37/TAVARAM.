@@ -109,16 +109,16 @@ public class MainActivity extends AppCompatActivity {
         // Assuming the model output indicates probabilities for 3 diseases
         if (result[0] > 0.5) {
             disease = "Corn Common Rust";
-            diseaseInfoEN = "Caused by the fungus Puccinia sorghi...";
-            diseaseInfoTA = "Puccinia sorghi...";
+            diseaseInfoEN = "English: Caused by Puccinia sorghi; spreads by wind in cool, humid conditions. Use resistant varieties, fungicides, crop rotation, and destroy debris.";
+            diseaseInfoTA = "தமிழ்: Puccinia sorghi மூலம் ஏற்படுகிறது; காற்றில் பரவுகிறது. நோயெதிர்ப்பு விதைகள், பூச்சிக்கொல்லிகள், பயிர் மாறுபாடு மற்றும் கழிவுகளை அழிக்கவும்.";
         } else if (result[1] > 0.5) {
             disease = "Tomato Mosaic Virus";
-            diseaseInfoEN = "Caused by the Tomato mosaic virus...";
-            diseaseInfoTA = "Tomato Mosaic Virus...";
+            diseaseInfoEN = "English: Caused by ToMV; spreads via seeds, tools, or contact. Use virus-free seeds, sterilize tools, grow resistant plants, and remove infected ones.";
+            diseaseInfoTA = "தமிழ்:ToMV மூலம் பரவுகிறது; விதைகள், கருவிகள் மூலமாக பரவும். வைரஸ்மற்ற விதைகள், கருவிகள் சுத்தம், நோயெதிர்ப்பு செடிகளை வளர்த்து பாதித்தவற்றை அகற்றவும்.";
         } else if (result[2] > 0.5) {
             disease = "Apple Black Rot";
-            diseaseInfoEN = "Caused by the fungus Botryosphaeria obtusa...";
-            diseaseInfoTA = "Apple Black Rot...";
+            diseaseInfoEN = "English: Caused by Botryosphaeria obtusa; thrives in wet conditions. Prune infected parts, use fungicides, and ensure proper spacing.";
+            diseaseInfoTA = "தமிழ்: Botryosphaeria obtusa மூலம் ஏற்படுகிறது; ஈரப்பதத்தில் வளரும். பாதித்தவை வெட்டவும், பூச்சிக்கொல்லிகள் தெளிக்கவும், இடைவெளி வையுங்கள்.";
         }
 
         diseaseResult.setText("Detection Result: " + disease);

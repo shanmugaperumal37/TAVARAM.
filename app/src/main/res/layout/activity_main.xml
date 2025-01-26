@@ -27,7 +27,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Plant Disease Detection"
+            android:text="TAVARAM"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -103,13 +103,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Bottom Banner -->
     <TextView
         android:id="@+id/footerText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="© 2025 Plant Disease Detection"
+
         android:textColor="#FFFFFF"
         android:textSize="14sp"
         android:background="#000000"
